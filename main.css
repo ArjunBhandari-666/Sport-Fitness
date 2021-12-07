@@ -8,5 +8,13 @@ ol{
     font-size: 20px;
 }
 iframe{
-    left: 27%;
+    margin-left: 10%;
+    border: 5px solid chartreuse;
+    border-width: 10%;
+}
+body
+{
+    justify-content: center;
+    align-items: center;
+    
 }
