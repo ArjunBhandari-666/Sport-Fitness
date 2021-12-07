@@ -1,12 +1,44 @@
 .HiSwagat{
     font-size: 50px;
+    margin-left: 26%;
+    outline: 2px solid black; 
+    border-width: 100%;
+    border-style: inset;
+    margin-right: 49%;
 }
 ul{
     font-size: 30px;
 }
 ol{
-    font-size: 20px;
+    font-size: 30px;
 }
-iframe{
-    left: 27%;
+body{
+    margin-left: 50;
+    background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+    color: white;
+    
+}
+.ul1{
+    border: 8px solid black
+}
+.ul2{
+    border: 8px solid black
+}
+.ul3{
+    border: 8px solid black
+}
+.ol1{
+    border: 8px solid black
+}
+.img1{
+    margin-left: 15%;
+}
+h2{
+    font-size: 30px;
+}
+mark{
+    background-color: powderblue;
+}
+.video1{
+    border: 7px solid red;
 }
