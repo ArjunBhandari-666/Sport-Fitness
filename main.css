@@ -82,17 +82,10 @@ body{
 }
 .BGCircle1
 {
-<<<<<<< Updated upstream
-    width: 143%;
-    height: 159%;
-    bottom: 25%;
-    right: 71.5%;
-=======
-    width: 60%;
-    height: 100%;
-    bottom: 55% ;
+    width: 1000px;
+    height: 1000px;
+    bottom: 55%;
     right: 65%;
->>>>>>> Stashed changes
     border-radius: 100%;
     position: absolute;
     background: #CD4040;
@@ -100,8 +93,8 @@ body{
 }
 .BGCircle2
 {
-    width: 60%;
-    height: 100%;
+    width: 1000px;
+    height: 1000px;
     top: 55% ;
     left: 65%;
     border-radius: 100%;
