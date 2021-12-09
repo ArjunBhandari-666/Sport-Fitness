@@ -82,9 +82,9 @@ body{
 }
 .BGCircle1
 {
-    width: 60%;
-    height: 100%;
-    bottom: 55% ;
+    width: 1000px;
+    height: 1000px;
+    bottom: 55%;
     right: 65%;
     border-radius: 100%;
     position: absolute;
@@ -93,8 +93,8 @@ body{
 }
 .BGCircle2
 {
-    width: 60%;
-    height: 100%;
+    width: 1000px;
+    height: 1000px;
     top: 55% ;
     left: 65%;
     border-radius: 100%;
