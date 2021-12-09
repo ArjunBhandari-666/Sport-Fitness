@@ -82,10 +82,10 @@ body{
 }
 .BGCircle1
 {
-    width: 45%;
-    height: 60%;
-    bottom: 60%;
-    right:80%;
+    width: 165%;
+    height: 190%;
+    bottom: 25%;
+    right: 64.5%;
     border-radius: 100%;
     position: absolute;
     background: #CD4040;
