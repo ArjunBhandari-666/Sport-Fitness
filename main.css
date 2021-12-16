@@ -2,7 +2,7 @@ body{
     background: #7C2323;
     margin: 0%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 .button{
@@ -118,7 +118,7 @@ body{
     width: 10%;
     height: 6%;
     top: 5%;
-    left: 90%;
+    left: 96%;
     position: fixed;
     
 }
@@ -136,3 +136,18 @@ body{
     box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
     position: absolute;
 }
+.twitter{
+    height: 100%;
+    top: 0%;
+    right: 106%;
+    position: absolute;
+}
+.twitter:hover{
+    height: 110%;
+    top: 0%;
+    right: 106%;  
+    border-radius: 25%;
+    box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+    
