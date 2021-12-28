@@ -15,6 +15,26 @@ body{
     box-shadow: 0px 4px 4px 10px rgba(0, 0, 0, 0.25);
 }
 .home{
-    
     position: absolute;
+    width: 8%;
+    height: 14%;
+    left: 25%;
+    top: 45%;
+}
+.homebutton
+{
+    position: relative;
+    width: 99%;
+}
+
+.options
+{
+    position: absolute;
+    overflow-y: scroll;
+    width: 20%;
+    height: 80%;
+    top: 10%;
+    left: 60%;
+    background-color: black;
+
 }
