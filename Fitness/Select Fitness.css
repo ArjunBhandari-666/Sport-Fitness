@@ -38,3 +38,16 @@ body{
     background-color: black;
 
 }
+.op1{
+    position: absolute;
+    top: 10%;
+    width: 80%;
+    height: 16.6%;
+    left: 10%;
+    background-color: rgb(78, 59, 59);
+}
+.op1text{
+    position: absolute;
+    top: 50%;
+    
+}
