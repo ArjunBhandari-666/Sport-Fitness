@@ -26,3 +26,14 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.info
+{
+    width: 60%;
+    height: 58%;
+    top: 37%;
+    left: 3%;
+    background-color: rgba(35, 33, 33, 1);
+    border-radius: 30px;
+    position: relative;
+    border: 2px solid white;
+}
