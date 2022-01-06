@@ -38,6 +38,8 @@ body{
     border-radius: 30px;
     position: absolute;
     border: 2px solid white;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .title
 {
@@ -77,12 +79,12 @@ body{
     position: relative;
     color: white;
     max-width: fit-content;
-    margin: auto;
     font-family: Solway;
     font-style: normal;
     font-weight: normal;
     font-size: 3vw;
     display: flex;
+    padding: 1vw;
 }
 .text2
 {
@@ -93,12 +95,12 @@ body{
     position: relative;
     color: white;
     max-width: fit-content;
-    margin: auto;
     font-family: Solway;
     font-style: normal;
     font-weight: normal;
     font-size: 2vw;
     display: flex;
+    padding: 1vw;
 }
 .text
 {
@@ -117,4 +119,12 @@ body{
     align-items: center;
     align-self: center;
     display: flex;
+}
+
+.info::-webkit-scrollbar {
+    display: none;
+}
+.info {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
