@@ -120,3 +120,10 @@ body{
     align-self: center;
     display: flex;
 }
+.info::-webkit-scrollbar {
+    display: none;
+}
+.info {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
