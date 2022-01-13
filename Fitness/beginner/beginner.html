@@ -14,14 +14,17 @@
                 Regular exercise has been shown to improve your health significantly .
                 Its primary benefits include helping you achieve and maintain a healthy body weight and muscle mass and reducing your risk for chronic diseases .
                 Additionally, research has shown that exercise can lift your mood, boost your mental health, help you sleep better.
-                And that’s not all. It can also help you maintain good energy levels.   
+                And that's not all. It can also help you maintain good energy levels.   
                 In short, exercise is powerful and can help improve your life.  </span>
             <span class="text1">Benefits of Beginner Exercise</span>
             <span class="text2">    
                 <ul style="margin-top: 0%;">
-                    <li>Aerobic. The core of any fitness program should include some form of continuous movement. Examples include swimming, running, and dancing.
+                    <li onclick="showp('p1')">
+                        Aerobic
+                        <p id="p1">The core of any fitness program should include some form of continuous movement. Examples include swimming, running, and dancing.</p>
                     </li>
-                    <li>Strength. These exercises help increase muscle power and strength. Examples include resistance training, plyometrics, weightlifting, and sprinting.
+                    <li onclick="showp('p2')">Strength
+                        <p id="p2">These exercises help increase muscle power and strength. Examples include resistance training, plyometrics, weightlifting, and sprinting.</p> 
                     </li>
                     <li>Calisthenics. These moves are usually performed without gym equipment using large muscle groups. They’re done at a medium aerobic pace. Examples include lunges, situps, pushups, and pullups.
                     </li>
@@ -41,4 +44,19 @@
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>
