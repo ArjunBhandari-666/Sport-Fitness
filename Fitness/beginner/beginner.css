@@ -134,3 +134,9 @@ p{
     font-size: 0vw;
     position: relative;
 }
+
+.disappear{
+    visibility: hidden;
+    font-size: 0vw;
+    position: relative;
+}

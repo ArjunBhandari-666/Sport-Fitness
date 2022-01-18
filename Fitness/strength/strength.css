@@ -128,3 +128,15 @@ body{
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+p{
+    visibility: hidden;
+    font-size: 0vw;
+    position: relative;
+}
+
+.disappear{
+    visibility: hidden;
+    font-size: 0vw;
+    position: relative;
+}
