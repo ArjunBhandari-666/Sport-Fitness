@@ -161,3 +161,8 @@ p{
     position: relative;
     padding: 10%;
 }
+
+.heading:hover
+{
+    color: red;
+}
