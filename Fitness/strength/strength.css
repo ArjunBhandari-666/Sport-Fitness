@@ -140,3 +140,7 @@ p{
     font-size: 0vw;
     position: relative;
 }
+.heading:hover
+{
+    color: red;
+}
