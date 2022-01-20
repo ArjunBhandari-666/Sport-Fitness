@@ -9,12 +9,45 @@
         <div class="bgcircle1"></div>
         <div class="bgcircle2"></div>
         <div class="info">
-            <span class="text1">Title spans</span>
-            <span class="text2">para spans</span>
+            <span class="text1">yoga</span>
+            <span class="text1">What is yoga?
+            </span>
+            <span class="text2">Yoga is an ancient physical and spiritual discipline and branch of philosophy that originated in India reportedly more than 5,000 years ago. The word yoga comes from the Sanskrit word yuj, which means to yoke, join, or unite. The Iyengar school of yoga defines yuj as the "joining or integrating of all aspects of the individual - body with mind and mind with soul - to achieve a happy, balanced and useful life." The ultimate aim of yoga, they claim, is to reach kaivalya (emancipation or ultimate freedom).            </span>
+            <span class="text1">Who invented yoga?
+            </span>
+            <span class="text2">There is no written record of who invented yoga because it was practiced by yogis (yoga practitioners) long before any written account of it could have come into existence. Yogis over the millennia passed down the discipline to their students, and many different schools of yoga developed as it spread. The earliest written record of yoga, and one of the oldest texts in existence, is generally believed to have been written by Patanjali, an Indian yogic sage who lived somewhere between 2,000 and 2,500 years ago. Patanjali is credited with writing the Yoga Sutras (sutra means "thread" in Sanskrit), which are the principles, philosophy, and practices of yoga that are still followed today. Although many schools of yoga have evolved over the centuries, they all follow these same fundamental principles. Buddhism and other Eastern spiritual traditions use many of the yoga techniques or derivations of those techniques.
+            </span>
+            <span class="text1">How does yoga work?
+            </span>
+            <span class="text2">Yoga uses asanas (postures), focused concentration on specific body parts, and pranayama (breathing techniques) to integrate the body with mind and mind with soul.
+            </span>
+            <span onclick="showp('p1')">
+                <span class="heading">The body:</span>
+                <p id="p1">Yoga asanas (postures or poses) help condition your body. There are thousands of yoga poses, and in Sanskrit, these poses are called kriyas (actions), mudras (seals), and bandhas (locks). A kriya focuses on the effort necessary to move energy up and down the spine; yoga mudra is a gesture or movement to hold energy or concentrate awareness; and a bandha uses the technique of holding muscular contractions to focus awareness.
+
+                </p>
+            </span>
         </div>
         <div class="title"><span class="text">yoga</span></div>
         <div class="YTvideos">
             
         </div>
+        
     </body>
+    
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>

@@ -164,5 +164,9 @@ p{
 
 .heading:hover
 {
-    color: red;
+    color: rgb(70, 70, 70);
+    text-shadow: -0.5px 0.5px 0 white,
+    0.5px 0.5px 0 white,
+    0.5px -0.5px 0 white,
+    -0.5px -0.5px 0 white;
 }
