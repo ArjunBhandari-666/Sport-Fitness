@@ -170,3 +170,27 @@ p{
     0.5px -0.5px 0 white,
     -0.5px -0.5px 0 white;
 }
+#text1
+{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    position: relative;
+    color: white;
+    max-width: fit-content;
+    font-family: Solway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    display: flex;
+    padding: 1vw;
+}
+#heading:hover
+{
+    color: rgb(70, 70, 70);
+    text-shadow: -0.5px 0.5px 0 white,
+    0.5px 0.5px 0 white,
+    0.5px -0.5px 0 white,
+    -0.5px -0.5px 0 white;
+}
