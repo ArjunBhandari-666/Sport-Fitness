@@ -32,10 +32,41 @@
                     </li>
                 </ul>
             </span>
+            <span class="text1" onclick="show('p4')"> <span class="heading"> What Football Training Equipment Do You Need?</span></span>
+            <span class="text2" id="p4">
+                <ul>
+                    <li>Football Cones</li> 
+                    <li>Bibs</li>
+                    <li>Agility ladders
+                    </li>
+                    <li>Hurdles</li>
+                    <li>Slalom poles
+                    </li>
+                    <li>Ball rebounders
+                    </li>
+                    <li>An ample supply of footballs and a pump — one or two balls won’t be enough, especially if you’ve got enthusiastic strikers regularly lodging balls in the local wildlife.
+                    </li>
+                </ul>
+            </span>
         </div>
         <div class="title"><span class="text">football</span></div>
         <div class="YTvideos">
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>
