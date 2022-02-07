@@ -9,7 +9,64 @@
         <div class="bgcircle1"></div>
         <div class="bgcircle2"></div>
         <div class="info">
-            <span class="text1"></span>
+            <span class="text1">Getting started on basketball:</span>
+            <span  class="text2" style="margin-top: 0%;">
+                <ul>
+                    <li onclick="showp('p1')">
+                        <span class="heading">Warm up</span>
+                        <p id="p1" class="disappear">It is advisable to warm up before starting a game of basketball. Warming up reduces the chance of injuries and is an efficient way to increase your ability to perform. Basketball is a fast paced sport so a sufficient warm up to prepare for the game ahead is vital. A good warm up should raise your heart rate and incorporate some drills before you start.
+
+                        </p>
+                    </li>
+                    <li onclick="showp('p2')">
+                        <span class="heading">Practise</span> 
+                        <p id="p2" class="disappear">There is no substitute for practice. Only by hard dedication working on key skills such as passing, dribbling and shooting can the player really hope to improve. Particularly as a beginner to the sport, mastering the fundamentals of basketball is crucial to your development and enjoyment of the game.
+
+                        </p>
+                        
+                    </li>
+                
+                
+                    <li onclick="showp('p3')">
+                        <span class="heading">Dribble with your weak hand</span>
+                        <p id="p3" class="disappear">Be sure to practice dribbling with your weak hand until you can handle the ball as effectively with either hand. Always dribble with your head up, not down, so that you can see what is happening around you, and only dribble as fast as you can go while still keeping control of the ball.
+
+                        </p>
+                        
+                    </li>
+               
+                    <li onclick="showp('p4')">
+                        <span class="heading">Shooting</span>
+                        <p id="p4" class="disappear">To shoot more effectively, practice shooting everyday from a variety of positions. It is important to learn what your basketball shooting range is. Remember to always hold your follow through to maintain your technique and keep your eye on the rim of the basket for the duration of your shot.
+
+                        </p>
+                                               
+                    </li>
+                
+                    <li onclick="showp('p5')">
+                        <span class="heading">Jumping</span>
+                        <p id="p5" class="disappear">Jumping is an important action that is often overlooked in basketball, however it shouldn’t be. For basketball players the ability to jump high is vital for collecting rebounds, blocking shots and shooting. This action should be developed through vertical jump training, which will not only improve the height you can reach but also your overall basketball performance.
+
+                        </p>
+                                                   
+                    </li>
+                
+                    <li onclick="showp('p6')">
+                        <span class="heading">Don't dribble too hard</span>
+                        <p id="p6" class="disappear">One key error people make is thinking they have to bounce the ball as hard as they can when dribbling. Dribbling should be done with knees bent, a straight back, and head up. Dribble just a little above your knee height, and remember, it is better to gently bounce the ball and stay in control, rather than bouncing it too hard on the floor.
+
+                        </p>
+                   </li>
+                    <li onclick="showp('p7')">
+                        <span class="heading">Master some skills, then move onto others
+                        </span>
+                        <p id="p7" class="disappear">Confidence grows by mastering a few skills, then moving on to others. It is better to be able to shoot from short range and then gradually extend the distance over time. As a beginner, master the basics first rather than trying to perform a slam dunk in your first practice session. For dribbling, control is better than speed and this will improve with practice.
+
+                        </p>    
+                        
+                    </li>
+                </ul>
+            </span>
             <span class="text2"></span>
         </div>
         <div class="title"><span class="text">basket ball</span></div>
@@ -17,4 +74,19 @@
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>
