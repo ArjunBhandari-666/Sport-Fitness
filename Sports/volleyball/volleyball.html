@@ -12,7 +12,7 @@
             <span class="text1">Volly ball training:</span>
             <span class="text2">
                 <ol>
-                    <li onclick="showp('p1')">Off-Season 1: 3x A Week
+                    <li onclick="showp('p1')"><span class="heading">Off-Season 1: 3x A Week</span> 
                         <span id="p1" class="disappear">
                             <ul>
                                 <li>Dumbbell Squat: 3 sets of 15 reps
@@ -39,7 +39,7 @@
                             </ul>
                         </span>
                     </li>
-                    <li onclick="showp('p2')">Off-Season 2: 2x A Week
+                    <li onclick="showp('p2')"><span class="heading">Off-Season 2: 2x A Week</span> 
                         <span id="p2" class="disappear">
                             <ul>
                                 <li>Dumbbell Lunge: 4 sets of 12 reps
@@ -73,63 +73,78 @@
                             </ul>
                         </span>
                     </li>
-                    <li onclick="showp('p3')">Pre-Season 5 Weeks Out: 2x A Week
+                    <li onclick="showp('p3')"><span class="heading">Pre-Season 5 Weeks Out: 2x A Week</span> 
                         <span id="p3" class="disappear">
                             <ul>
-                                <li>Dumbbell Squat: 3 sets of 15 reps
+                                <li>Bench Press: 3 sets of 8 reps
+
                                 </li>
-                                <li>Dumbbell Alternating Bench Press: 3 sets of 15 reps
+                                <li>Lat Pulldowns: 3 sets of 8 reps
+
                                 </li>
-                                <li>Straight Arm Pulldowns: 3 sets of 15 reps
+                                <li>Dumbbell Shoulder Press: 3 sets of 8 reps
+
                                 </li>
-                                <li>Dumbbell Front Raises: 3 sets of 15 reps
+                                <li>Dumbbell Overhead Tricep Extensions: 3 sets of 8 reps
+
                                 </li>
-                                <li>Reverse Flyes: 3 sets of 15 reps
-                                </li>
-                                <li>Overhead Tricep Extensions: 3 sets of 15 reps
-                                </li>
-                                <li>Dumbbell Bicep Curls: 3 sets of 15 reps
+                                <li>Crunches on Stability Ball: 3 sets of 15 reps
+
                                 </li>
                                 <li>Jackknife Crunches: 3 sets of 20 reps
+
                                 </li>
-                                <li>Oblique Crunches: 3 sets of 20 reps
-                                </li>
-                                <li>External Rotation: 3 sets of 15 reps
-                                </li>
+                                <li>Jump Squat: 3 sets of 10 reps
+
+                               
 
                             </ul>
                         </span>
                     
                     </li>
-                    <li onclick="showp('p4')">In-Season Maintenance: 1-2x A Week
+                    <li onclick="showp('p4')"><span class="heading">In-Season Maintenance: 1-2x A Week</span> 
                         <span id="p4" class="disappear">
                             <ul>
-                                <li>Dumbbell Squat: 3 sets of 15 reps
-                                </li>
-                                <li>Dumbbell Alternating Bench Press: 3 sets of 15 reps
-                                </li>
-                                <li>Straight Arm Pulldowns: 3 sets of 15 reps
-                                </li>
-                                <li>Dumbbell Front Raises: 3 sets of 15 reps
-                                </li>
-                                <li>Reverse Flyes: 3 sets of 15 reps
-                                </li>
-                                <li>Overhead Tricep Extensions: 3 sets of 15 reps
-                                </li>
-                                <li>Dumbbell Bicep Curls: 3 sets of 15 reps
-                                </li>
-                                <li>Jackknife Crunches: 3 sets of 20 reps
-                                </li>
-                                <li>Oblique Crunches: 3 sets of 20 reps
-                                </li>
-                                <li>External Rotation: 3 sets of 15 reps
-                                </li>
+                                <li>Lunges: 2 sets of 12 reps
 
+                                </li>
+                                <li>Lying Hamstring Curls: 2 sets of 12 reps
+
+                                </li>
+                                <li>Dumbbell Chest Press: 2 sets of 12 reps
+
+                                </li>
+                                <li>Dumbbell Pullovers: 2 sets of 12 reps
+
+                                </li>
+                                <li>Dumbbell Front Raises: 2 sets of 12 reps
+
+                                </li>
+                                <li>Reverse Flyes: 2 sets of 12 reps
                             </ul>
                         </span>
                     </li>
-                    <li onclick="showp('p1')">Stretching
-                        <span id="p1" class="disappear"></span>
+                    <li onclick="showp('p5')" ><span class="heading">Stretching</span> 
+                        <span id="p5" class="disappear">
+                            <ul>
+                                <li>Upward Stretch
+                                </li>
+                                <li>Shoulder Stretch
+                                </li>
+                                <li>Hug Yourself
+                                </li>
+                                <li>Kneeling Forearm Stretch
+                                </li>
+                                <li>Hamstring Stretch
+                                </li>
+                                <li>Quadriceps Stretch
+                                </li>
+                                <li>Calf Stretch
+                                </li>
+                                <li>Spinal Twist
+                                </li>
+                            </ul>
+                        </span>
                     </li>
                 </ol>
             </span>
@@ -139,4 +154,19 @@
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>

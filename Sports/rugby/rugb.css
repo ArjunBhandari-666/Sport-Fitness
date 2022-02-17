@@ -58,11 +58,22 @@ body{
     height: 92%;
     top: 3%;
     left: 67%;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-color: rgba(35, 33, 33, 1);
     border-radius: 30px;
     position: absolute;
     border: 2px solid white;
 }
+
+.YTvideos::-webkit-scrollbar {
+    display: none;
+}
+.YTvideos {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .tt
 {
     -webkit-user-select: none; /* Safari */        
@@ -127,4 +138,35 @@ body{
 .info {
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
+
+p{
+    visibility: hidden;
+    font-size: 0vw;
+    position: relative;
+}
+
+.disappear{
+    visibility: hidden;
+    font-size: 0vw;
+    position: relative;
+}
+
+.YT
+{
+    margin: 0%;
+    width: 24vw;
+    height: 24vh;
+    border-radius: 70px;
+    position: relative;
+    padding: 10%;
+}
+
+.heading:hover
+{
+    color: rgb(70, 70, 70);
+    text-shadow: -0.5px 0.5px 0 white,
+    0.5px 0.5px 0 white,
+    0.5px -0.5px 0 white,
+    -0.5px -0.5px 0 white;
 }
