@@ -9,12 +9,155 @@
         <div class="bgcircle1"></div>
         <div class="bgcircle2"></div>
         <div class="info">
-            <span class="text1">Title spans</span>
-            <span class="text2">para spans</span>
+            <span class="text1">Hockey weight training</span>
+            <span class="text2">
+                <ol>
+                    <li onclick="showp('p1')"><span class="heading">Early Preseason                    </span> 
+                        <span id="p1" class="disappear">
+                            <ul>
+                                <li>Players are preparing for the season and starting to build up strength after the offseason.
+                                </li>
+                                <li>Emphasis is on building aerobic fitness, basic functional strength and muscle building, which is called "hypertrophy."
+                                </li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li onclick="showp('p2')"><span class="heading">Late Preseason
+                    </span> 
+                        <span id="p2" class="disappear">
+                            <ul>
+                                <li>Players are working up to the start of the season and pre-season trials are imminent.
+                                </li>
+                                <li>Emphasis is on building anaerobic fitness and maximum strength and power.
+                                </li>
+                            </ul>
+                            
+                        </span>
+                    </li>
+                    <li onclick="showp('p3')"><span class="heading">In Season
+                    </span> 
+                        <span id="p3" class="disappear">
+                            <ul>
+                                <li>Competition is underway and players are expected to be fully functional for competition.
+                                </li>
+                                <li>Maintenance of speed, aerobic, and anaerobic fitness with an emphasis on strength and power.
+                                </li>
+                            </ul>
+                            Exercises:
+                            <ul>
+
+                            </ul>
+                        </span>
+                    
+                    </li>
+                    <li onclick="showp('p4')"><span class="heading">Off Season
+                    </span> 
+                        <span id="p4" class="disappear">
+                            <ul>
+                                <li>The season is over; time to relax, but stay active.
+                                </li>
+                                <li>Emphasis is on rest and recovery with maintenance of light activity — try cross-training and light gym work. Taking a break for several weeks from intense fitness and strength training is helpful.
+                                </li>
+                                <li>As pre-season approaches, more regular workouts can resume with an emphasis on building aerobic fitness once again for the pre-season training.
+                                </li>
+                            </ul>
+                        </span>
+                    </li>
+                    <li onclick="showp('p5')"><span class="heading">Exercises:
+                    </span> 
+                        <span id="p5" class="disappear">
+                            <ul>
+                                <li onclick="showp('p6')"><span class="heading">Phase 1 Exercises
+                                </span> 
+                                    <span id="p6" class="disappear">
+                                        <ul>
+                                            <li>Barbell squat, dumbbell squat or sled hack squat
+
+                                            </li>
+                                            <li>Dumbbell incline bench press
+
+                                            </li>
+                                            <li>Romanian deadlift
+                                            </li>
+                                            <li>Dumbbell biceps arm curl</li>
+                                            <li>Dumbbell triceps extension or machine pushdown
+                                            </li>
+                                            <li>Seated cable row</li>
+                                            <li>Lat pulldown to the front with wide grip
+                                            </li>
+                                            <li>Reverse crunch</li>
+                                        </ul>
+                                    </span>
+                                    <li onclick="showp('p4')"><span class="heading">Phase 2 Exercises
+                                    </span> 
+                                        <span id="p4" class="disappear">
+                                            <ul>
+                                                <li>Alternate, single-leg sled hack squat
+
+                                                </li>
+                                                <li>Barbell bench press
+                                                </li>
+                                                <li>Romanian deadlift
+                                                </li>
+                                                <li>Lat pulldown to front with wide grip
+
+                                                </li>
+                                                <li>Pull-ups - 3x6 repetitions - adjust to suitability
+
+                                                </li>
+                                                 <li>Alternate, single-leg dumbbell upright row
+
+                                                </li>
+                                            </ul>
+                                        </span>
+                                    </li>
+                                </li>
+                                <li onclick="showp('p4')"><span class="heading">Phase 3 Exercises
+                                </span> 
+                                    <span id="p4" class="disappear">
+                                        <ul>
+                                            <li>Alternate, single-leg dumbbell upright row
+
+                                            </li>
+                                            <li>Alternate, single-leg seated calf raises
+
+                                            </li>
+                                            <li>Cable push-pull
+                                            </li>
+                                            <li>One arm cable raises, each arm
+
+                                            </li>
+                                            <li>Alternate, single-leg medicine ball push press
+                                            </li>
+                                            <li>Medicine ball standing twist with partner (6x15 repetitions fast, recover between sets) (or alone)
+                                            </li>
+                                        </ul>
+                                    </span>
+                                </li>
+                            </ul>
+                        </span>
+                    </li>
+                </ol>
+            </span>
         </div>
         <div class="title"><span class="text">hockey</span></div>
         <div class="YTvideos">
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>

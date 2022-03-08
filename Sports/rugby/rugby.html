@@ -9,12 +9,74 @@
         <div class="bgcircle1"></div>
         <div class="bgcircle2"></div>
         <div class="info">
-            <span class="text1">Title spans</span>
-            <span class="text2">para spans</span>
+            <span class="text1">Rugby workout</span>
+            <span class="text2">
+                <ul>
+                    <li onclick="showp('p1')"><span class="heading">Barbell front-loaded split squat</span> 
+                        <span id="p1" class="disappear">
+                          <br>
+                          <br>
+                            Hold the barbell on top of your chest, using an overhand grip. Position your feet in a staggered stance, approximately shoulder-width apart. Keep your upper arms parallel to the floor as you lower your hips until your back knee is about 2-3cm from the ground. Pause at the bottom, then rise back to the starting position.
+                            
+
+                        </span>
+                        <br>
+                    </li>
+                    <li onclick="showp('p2')"><span class="heading">Romanian deadlift</span> 
+                        <span id="p2" class="disappear"><br>
+                            <br>
+                            Hold the bar at hip level, using a palms-down grip with your shoulders back, your back arched and your knees slightly bent. Lower the bar by pushing your backside back as far as possible. Keep the bar close to your body, with your head looking forwards and shoulders back. At the bottom of your range of motion (usually just below the knee), stop and return to your starting position.
+                        
+                        </span>
+                        <br>
+                    </li>
+                    <li onclick="showp('p3')"><span class="heading">Incline dumbbell bench press</span> 
+                        <span id="p3" class="disappear"><br>
+                            <br>
+                            Lie back on an incline bench and hold one dumbbell in each hand, with your hands shoulder-width apart and palms facing outwards. Breathe out and press the dumbbells up in front of your chest. Lock your arms at the top, then slowly lower the weights, taking approximately twice the amount of time to lower them as it took to lift them.
+                    
+
+                        </span>
+                        <br>
+                    </li>
+                    <li onclick="showp('p4')"><span class="heading"> pull-up</span> 
+                        <span id="p4" class="disappear"><br><br>
+                            Grip the pull-up bar with your palms facing forwards and shoulder-width apart. Pull your torso up until your chest reaches the bar, breathing out as you rise and pulling your shoulders and upper arms down and back. Hold this position for one second, then breathe in and lower yourself slowly back to your starting position.
+                            
+
+                        </span>
+                        <br>
+                    </li>
+                    <li onclick="showp('p5')" ><span class="heading"> Sit-up</span> 
+                        <span id="p5" class="disappear"><br>
+                            <br>
+                            Lie on your back with knees bent. Clasp your hands behind your head. Raise your body until your back is at a 45° degree angle to your thighs, breathing out as you do so. As your torso begins to contract, return to your starting position, breathing in as you do so.
+                            
+
+                        </span>
+                        <br>
+                    </li>
+                </ul>
+            </span>
         </div>
         <div class="title"><span class="text">rugby</span></div>
         <div class="YTvideos">
             
         </div>
     </body>
+    <script>
+        function showp(x)
+        {
+            if(document.getElementById(x).style.visibility=="visible")
+            {
+                document.getElementById(x).style.visibility="hidden";
+                document.getElementById(x).style.fontSize="0vw";
+            }
+            else
+            {
+                document.getElementById(x).style.visibility="visible";
+                document.getElementById(x).style.fontSize="2vw";
+            }
+        }
+    </script>
 </html>
