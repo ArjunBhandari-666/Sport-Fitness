@@ -1,0 +1,7 @@
+gsap.from('.BGCircle1',  {delay: 1, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.BGCircle2',  {delay: 1, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.BGCircle3',  {delay: 1, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.swiperbuttons',  {delay: 3,x:-100, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.button',  {delay: 2,y:-50, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.button1',  {delay: 2,y:-50, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.socials',  {delay: 3,x:150, duration: 1, ease: 'expo.inOut', opacity:0})
