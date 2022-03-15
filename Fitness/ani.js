@@ -1,0 +1,6 @@
+gsap.from('.BGCircle1',  {delay: 1,x:300, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.BGCircle2',  {delay: 1,x:-300, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.info',  {delay: 2.5,x:-300, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.BGCircle',  {delay: 1, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.title',  {delay: 2.5,x:-300, duration: 1, ease: 'expo.inOut', opacity:0})
+gsap.from('.YTvideos',  {delay: 2.5,x:300, duration: 1, ease: 'expo.inOut', opacity:0})
